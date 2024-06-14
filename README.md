@@ -42,14 +42,14 @@ Note: For Mac OSX, replace "python" with "python3" and for both platforms, make 
 
 **1. Clone this repository locally**
 ```
-git clone https://github.com/zabrewer/meraki-apiv0-audit.git
+git clone https://github.com/zabrewer/AsyncRebootMeraki.git
 ```
 **2. Create the virtual environment**
 ```
 python3 -m venv AsyncRebootMeraki
 ```
 
-**3. Change to the meraki-apiv0-audit directory**
+**3. Change to the AsyncRebootMeraki directory**
 ```
 cd AsyncRebootMeraki
 ```
@@ -71,7 +71,7 @@ source bin/activate
 pip install .
 ```
 
-**6. Launch meraki-apiv0-audit while in virtual environment**
+**6. Launch rebootmeraki.py while in virtual environment**
 ```
 rebootmeraki.py
 ```
