@@ -4,18 +4,22 @@ Small utility that asyncronously reboots multiple meraki dashboard devices.
 
 The minimum that is needed are serial numbers - they must be in a dictironary nested in a list e.g.
 
-'''
+```
+
 serial_numbers = [{'serial': 'XXX-XXX-XXX'}, {'serial': 'XXX-XXX-XXX'}]
-'''
+
+```
 
 
 ## Install and Use
 
 In rebootremeraki.py, set your API key and either change the serial numbers or add code to read SNs from text or CSV and build a list in the following format:
 
-'''
+```
+
 serial_numbers = [{'serial': 'XXX-XXX-XXX'}, {'serial': 'XXX-XXX-XXX'}]
-'''
+
+```
 
 **Note that the code *will* prompt before rebooting devices.**
 
